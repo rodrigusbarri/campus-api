@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cursos",
+  "info": {
+    "singularName": "curso",
+    "pluralName": "cursos",
+    "displayName": "curso",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "nivel": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "modulos": {
+      "type": "string"
+    },
+    "profesor": {
+      "type": "string"
+    },
+    "disponible": {
+      "type": "boolean"
+    },
+    "duracion": {
+      "type": "time"
+    },
+    "imagen_url": {
+      "type": "text"
+    }
+  }
+}
