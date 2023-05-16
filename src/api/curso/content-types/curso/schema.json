@@ -30,11 +30,11 @@
     "disponible": {
       "type": "boolean"
     },
-    "duracion": {
-      "type": "time"
-    },
     "imagen_url": {
       "type": "text"
+    },
+    "duracion": {
+      "type": "string"
     }
   }
 }

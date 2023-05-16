@@ -28,14 +28,17 @@
       "required": true,
       "unique": true
     },
-    "password": {
-      "type": "password"
-    },
     "telefono": {
       "type": "biginteger"
     },
     "nacimiento": {
       "type": "date"
+    },
+    "token": {
+      "type": "text"
+    },
+    "password": {
+      "type": "string"
     }
   }
 }
