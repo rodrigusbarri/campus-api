@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contenido_ruta_1s",
+  "info": {
+    "singularName": "contenido-ruta-1",
+    "pluralName": "contenido-ruta-1s",
+    "displayName": "contenido_ruta_1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "ruta_1": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::ruta-1.ruta-1",
+      "inversedBy": "contenido_ruta_1"
+    },
+    "cursos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::curso.curso",
+      "mappedBy": "contenido_ruta_1"
+    }
+  }
+}

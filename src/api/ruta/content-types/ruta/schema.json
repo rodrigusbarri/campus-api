@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rutas",
+  "info": {
+    "singularName": "ruta",
+    "pluralName": "rutas",
+    "displayName": "ruta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categoria": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "ruta_1s": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::ruta-1.ruta-1",
+      "mappedBy": "ruta"
+    }
+  }
+}

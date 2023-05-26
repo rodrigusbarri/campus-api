@@ -39,6 +39,21 @@
     },
     "token": {
       "type": "text"
+    },
+    "pais": {
+      "type": "string"
+    },
+    "provincia": {
+      "type": "string"
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
     }
   }
 }

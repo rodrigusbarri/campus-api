@@ -38,6 +38,12 @@
     },
     "duracion": {
       "type": "string"
+    },
+    "contenido_ruta_1": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::contenido-ruta-1.contenido-ruta-1",
+      "inversedBy": "cursos"
     }
   }
 }

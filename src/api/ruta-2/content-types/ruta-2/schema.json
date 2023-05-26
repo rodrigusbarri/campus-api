@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ruta_2s",
+  "info": {
+    "singularName": "ruta-2",
+    "pluralName": "ruta-2s",
+    "displayName": "ruta_2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "contenido_1": {
+      "type": "string"
+    },
+    "contenido_2": {
+      "type": "string"
+    },
+    "contenido_3": {
+      "type": "string"
+    },
+    "contenido_4": {
+      "type": "string"
+    },
+    "contenido_5": {
+      "type": "string"
+    },
+    "contenido_6": {
+      "type": "string"
+    },
+    "contenido_7": {
+      "type": "string"
+    },
+    "contenido_8": {
+      "type": "string"
+    },
+    "contenido_9": {
+      "type": "string"
+    },
+    "contenido_10": {
+      "type": "string"
+    },
+    "contenido_11": {
+      "type": "string"
+    }
+  }
+}

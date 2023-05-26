@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ruta_4s",
+  "info": {
+    "singularName": "ruta-4",
+    "pluralName": "ruta-4s",
+    "displayName": "ruta_4"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "contenido_1": {
+      "type": "string"
+    },
+    "contenido_2": {
+      "type": "string"
+    },
+    "contenido_3": {
+      "type": "string"
+    },
+    "contenido_4": {
+      "type": "string"
+    },
+    "contenido_5": {
+      "type": "string"
+    },
+    "contenido_6": {
+      "type": "string"
+    },
+    "contenido_7": {
+      "type": "string"
+    }
+  }
+}
